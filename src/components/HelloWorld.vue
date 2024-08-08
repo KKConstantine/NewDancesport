@@ -1,5 +1,11 @@
 <script setup>
 import { ref } from 'vue'
+import { useRouter } from 'vue-router'
+
+const router = useRouter();
+const biubiubiu = () => {
+  router.push('/San')
+}
 
 defineProps({
   msg: String,
@@ -34,6 +40,9 @@ const count = ref(0)
     >.
   </p>
   <p class="read-the-docs">Click on the Vite and Vue logos to learn more</p>
+
+  <button style="background-color: chocolate;" @click="biubiubiu"> 我是大厨第九季 </button>
+
 </template>
 
 <style scoped>
