@@ -4,13 +4,7 @@ import one from './views/one.vue'
 </script>
 
 <template>
-  
-
   <router-view></router-view>
-
-
-
-
 </template>
 
 <style scoped>
